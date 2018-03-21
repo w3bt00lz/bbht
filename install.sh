@@ -24,14 +24,14 @@ cd ~/tools/
 
 
 echo "installing JSParser"
-git clone https://github.com/nahamsec/JSParser.git
+git clone https://github.com/w3bt00lz/JSParser.git
 cd JSParser*
 python setup.py install
 cd ~/tools/
 echo "done"
 
 echo "installing Sublist3r"
-git clone https://github.com/aboul3la/Sublist3r.git
+git clone https://github.com/w3bt00lz/Sublist3r.git
 cd Sublist3r*
 pip install -r requirements.txt
 cd ~/tools/
@@ -39,41 +39,41 @@ echo "done"
 
 
 echo "installing teh_s3_bucketeers"
-git clone https://github.com/tomdev/teh_s3_bucketeers.git
+git clone https://github.com/w3bt00lz/teh_s3_bucketeers.git
 cd ~/tools/
 echo "done"
 
 
 echo "installing wpscan"
-git clone https://github.com/wpscanteam/wpscan.git
+git clone https://github.com/w3bt00lz/wpscan.git
 cd wpscan*
 sudo gem install bundler && bundle install --without test
 cd ~/tools/
 echo "done"
 
 echo "installing dirsearch"
-git clone https://github.com/maurosoria/dirsearch.git
+git clone https://github.com/w3bt00lz/dirsearch.git
 cd ~/tools/
 echo "done"
 
 
 echo "installing lazys3"
-git clone https://github.com/nahamsec/lazys3.git
+git clone https://github.com/w3bt00lz/lazys3.git
 cd ~/tools/
 echo "done"
 
 echo "installing virtual host discovery"
-git clone https://github.com/jobertabma/virtual-host-discovery.git
+git clone https://github.com/w3bt00lz/virtual-host-discovery.git
 cd ~/tools/
 echo "done"
 
 echo "installing web screenshot"
-git clone https://github.com/maaaaz/webscreenshot.git
+git clone https://github.com/w3bt00lz/webscreenshot.git
 cd ~/tools/
 echo "done"
 
 echo "installing bash_profile aliases from recon_profile"
-git clone https://github.com/nahamsec/recon_profile.git
+git clone https://github.com/w3bt00lz/recon_profile.git
 cd recon_profile
 cat bash_profile >> ~/.bash_profile
 source ~/.bash_profile
@@ -81,18 +81,18 @@ cd ~/tools/
 echo "done"
 
 echo "installing sqlmap"
-git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+git clone --depth 1 https://github.com/w3bt00lz/sqlmap.git sqlmap-dev
 cd ~/tools/
 echo "done"
 
 echo "installing knock.py"
 sudo apt-get install python-dnspython
-git clone https://github.com/guelfoweb/knock.git
+git clone https://github.com/w3bt00lz/knock.git
 cd ~/tools/
 echo "done"
 
 echo "installing lazyrecon"
-git clone https://github.com/nahamsec/lazyrecon.git
+git clone https://github.com/w3bt00lz/lazyrecon.git
 cd ~/tools/
 echo "done"
 
